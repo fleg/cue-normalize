@@ -19,5 +19,8 @@
   "dependencies": {
     "byline": "^4.2.1",
     "through2": "^2.0.0"
+  },
+  "bin": {
+    "cue-normalize": "./bin/cue-normalize"
   }
 }
