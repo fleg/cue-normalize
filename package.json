@@ -1,0 +1,23 @@
+{
+  "name": "cue-normalize",
+  "version": "1.0.0",
+  "description": "normalize cue sheets track numbers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test --reporter spec"
+  },
+  "author": "Aleksey Timchenko <flegmatik.bel@gmail.com> (http://flegdev.ru/)",
+  "license": "MIT",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.0",
+    "stream-equal": "^0.1.5"
+  },
+  "dependencies": {
+    "byline": "^4.2.1",
+    "through2": "^2.0.0"
+  }
+}
